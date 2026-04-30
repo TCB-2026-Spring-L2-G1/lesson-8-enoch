@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap');
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    margin: 0;
+    font-family: 'Cambay', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    margin-inline: auto;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+
+header {
+    padding: 60px 0;
+    background: #333 url('images/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+header>img {
+    margin: auto;
+    width: 500px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.choices {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+    padding: 5px 30px;
+    width: 210px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+section {
+    margin: 60px 0 0 0;
+    padding: 40px;
+    background-color: #231f20;
+}
+
+#order-heading {
+    font-size: 2.8rem;
+}
+
+section>div {
+    display: inline-block;
+    width: 30%;
+}
+
+section>img {
+    width: 50%;
+}
+
+ol {
+    margin: 0 auto;
+    width: 210px;
+}
+
+ol>li {
+    margin: 15px 0;
+    text-align: left;
+    list-style-position: inside;
+}
+
+footer {
+    margin: 0;
+    padding: 30px;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #999;
+}
+
+/*===========Menu Page=========*/
+
+#page-title {
+    margin: 0;
+    background: url('images/italian-flag-shadow.png') center center no-repeat;
+    background-size: contain;
+    padding: 80px 200px;
+    color: black;
+    font-size: 2em;
+}
+
+.menu-category {
+    font-size: 1.8em;
+}
+
+.dishes {
+    list-style-type: none;
+    margin: 40px auto;
+    padding: 40px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+.dishes li>h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.dishes li>p {
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+/*====About page=====*/
+main>p {
+    margin: 20px auto;
+    text-align: left;
+    max-width: 700px;
+}
+
+/*=======Locations page=======*/
+
+.locations {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+    padding: 5px 30px;
+    width: 310px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+.map {
+    width: 600px;
+}
+
+
+/*==================Student code 8 ===================*/
+
+
+
+/*=================== Practice Session ===============*/

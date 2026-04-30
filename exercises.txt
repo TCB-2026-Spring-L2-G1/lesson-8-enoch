@@ -1,0 +1,91 @@
+Lesson 08
+
+Exercise 1
+1. In index.html, in between the header tags before the hero image,
+add a nav tags
+2. In between the nav tags, add an image tag for the putti-pizza-logo-small.png with id nav-logo
+Don't forget the alt attribute
+3. Wrap an anchor tag around the small logo image and link it to index.html
+4. In style.css, style the nav bar and the small logo
+
+Select the header 
+Set padding-top to 0
+
+Select the nav
+Set margin-bottom to 60px
+Set padding to 20px
+Set text-align to left
+Set background-color to #231f20
+
+Select the logo by its id
+Set width to 250px
+
+Exercise 2
+1. In between the nav tags, after the small logo, add:
+ul tag with id menu, 4 li tags
+2. Inside the li tags, add an anchor tag to link to:
+Menu menu.html
+Delivery https://doordash.com
+Locations & Hours locations.html
+About US about.html
+Make the external link open a new tab
+3. In style.css, display the ul and li tags inline with the logo
+
+Select the ul by its id
+Set margin to 0 0 0 60px
+Set padding to 0
+Set display to inline-block
+Set vertical-align to middle
+Set list-style-type to none
+
+Use the child combinator to select the li tags
+Set margin to 0 10px
+Set padding to 0
+Set display to inline-block
+
+Use the child combinator to select the anchor tags
+Set color to white
+Set text-decoration to none
+Set font-size to 0.95em
+
+Exercise 3
+1. In between the nav tags, after the ul, add a div tag with id contact
+2. In the div tag, add an h3 with text: 206-432-9876
+3. In style.css, use position relative and absolute to place
+the contact div in the upper right corner of the nav
+
+To the existing styles for the nav add:
+position: relative
+
+Select the div by its id
+Set position to absolute
+Set top to 5px
+Set right to 20px
+
+
+_______________________________________________________
+Practice Session
+Part 1
+Add the navigation menu to the other 3 pages & style current and visited links
+
+Exercise 1
+1. Copy the HTML code for the navigation menu and paste in
+the about, locations, and menu pages
+
+Exercise 2
+Menu link color user feedback
+1. On each page, assign a class to the menu item for that page
+2. In style.css, style current page link differently than it otherwise appers
+Use the style of your choice, such as underline or color
+Apply the same style when the user hovers over the menu items,
+using the :hover pseudo class
+Hint: You must be as specific selecting the a tags as you were when you set the original styles or the new styles won't work. 
+For example:
+works: #menu>li>a.classname
+won't work: .classname 
+_______________
+Part 2 
+Position Play
+1. Open the position-play folder, index.html and style.css
+2. From Canvas, open the Position Play slide deck. 
+Work through the exercises in the slide deck.
