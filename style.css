@@ -158,6 +158,70 @@ main>p {
 
 /*==================Student code 8 ===================*/
 
+header{
+    padding-top:0;
+}
 
+nav {
+    background-color: #231f20;
+    padding:20px;
+    margin-bottom: 60px;
+    text-align:left;
+    position: relative;
+}
+
+
+#nav-logo{
+    width:250px;
+}
+
+
+#menu{
+    list-style-type: none;
+    display:inline-block;
+    padding: 0;
+    margin: 0 0 0 60px;
+    vertical-align: middle;
+    
+}
+
+#menu > li{
+    display:inline-block;
+    padding:0;
+    margin: 0 10px;
+}
+
+#menu > li > a {
+    color:white;
+    text-decoration:none;
+    font-size:0.95em;
+}
+
+
+#contact{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+
+}
 
 /*=================== Practice Session ===============*/
+
+
+.sauces{
+    background-color:rgb(231, 217, 19);
+
+}
+
+.VegToppings{
+    background-color:rgb(142, 224, 20);
+}
+
+.MeatToppings{
+    background-color:rgb(199, 110, 54);
+}
+
+li:hover{
+    color:red;
+
+}
